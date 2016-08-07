@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+   <plugin class="de.jwi.jspwiki.uptimeplugin.UptimePlugin">
+      <author>Jürgen Weber</author>
+      <minVersion>2.10.0</minVersion>
+      <alias>UptimePlugin</alias>
+   </plugin>
+</modules>
