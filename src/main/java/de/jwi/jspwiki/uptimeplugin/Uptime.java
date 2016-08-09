@@ -54,8 +54,6 @@ public class Uptime
 
 				long l = d1.longValue();
 
-				System.out.println(l);
-
 				long days = TimeUnit.MILLISECONDS.toDays(l);
 				long hours = TimeUnit.MILLISECONDS.toHours(l - TimeUnit.MILLISECONDS.convert(days, TimeUnit.DAYS));
 				long minutes = TimeUnit.MILLISECONDS.toMinutes(l - TimeUnit.MILLISECONDS.convert(days, TimeUnit.DAYS)
